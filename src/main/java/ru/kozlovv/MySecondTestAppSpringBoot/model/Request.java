@@ -25,7 +25,7 @@ public class Request {
     @Size(min = 1, max = 32, message = "Поле operationalUid содержит некорректное количество вне диапазона от 1 до 32")
     private String operationUid;
 
-    private String systemName;
+    private Systems systemName;
 
     @NotBlank(message = "Поле systemTime не заполнено")
     private String systemTime;
